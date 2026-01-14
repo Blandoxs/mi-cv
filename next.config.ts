@@ -1,11 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', 
-  images: {
-    unoptimized: true, 
-  },
-  // IMPORTANTE: Si tu repo se llama "mi-cv", descomenta la línea de abajo
-  // basePath: '/mi-cv', 
+  output: 'export',
+  images: { unoptimized: true },
+  basePath: '/mi-cv', // Esto es lo que permite que el dominio funcione sin errores
 };
 
 export default nextConfig;
