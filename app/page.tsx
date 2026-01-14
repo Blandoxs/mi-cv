@@ -470,7 +470,7 @@ export default function Portfolio() {
             
             <div className="flex flex-col md:flex-row justify-center items-center gap-8">
               <motion.a 
-                whileHover={{ scale: 1.05, shadow: "0_0_30px_rgba(16,185,129,0.4)" }}
+                whileHover={{ scale: 1.05, boxShadow: "0px 0px 30px rgba(16,185,129,0.4)" }} // Cambia 'shadow' por 'boxShadow'
                 whileTap={{ scale: 0.95 }}
                 href={`mailto:${DATA.profile.email}`} 
                 className="px-12 py-6 bg-gradient-to-r from-emerald-500 to-cyan-500 text-black font-black rounded-2xl transition-all flex items-center gap-4 group shadow-xl"
