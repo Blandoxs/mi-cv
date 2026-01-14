@@ -504,7 +504,7 @@ export default function Portfolio() {
         </section>
       </main>
 
-      {/* FOOTER AVANZADO */}
+
       <footer className="py-24 border-t-2 border-emerald-500/10 px-8 relative overflow-hidden">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-12 relative z-10">
           <div className="flex flex-col gap-4 items-center md:items-start">
@@ -533,7 +533,7 @@ export default function Portfolio() {
               </a>
             </div>
             <span className="text-[10px] text-slate-700 font-mono mt-4">
-              &copy; {new Date().getFullYear()} // ALL SYSTEMS OPERATIONAL
+              &copy; {new Date().getFullYear()} 
             </span>
           </div>
         </div>
